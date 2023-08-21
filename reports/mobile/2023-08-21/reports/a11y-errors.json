@@ -1,0 +1,130 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-598-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,INNER,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV",
+            "selector": "div.a11y-paragraphs-tabs__body > div.ds-u-padding--0 > section#section2146-1 > div.accordeon-trigger",
+            "boundingRect": {
+              "top": 1024,
+              "bottom": 1096,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 72
+            },
+            "snippet": "<div class=\"accordeon-trigger js-accordeon-trigger accordion-trigger js-accordion-trig…\" aria-controls=\"section2146-1\" aria-expanded=\"true\" tabindex=\"0\">",
+            "nodeLabel": "Inflation Reduction Act",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-599-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,INNER,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,SECTION,0,DIV",
+            "selector": "div.a11y-paragraphs-tabs__body > div.ds-u-padding--0 > section#section2146-2 > div.accordeon-trigger",
+            "boundingRect": {
+              "top": 1304,
+              "bottom": 1376,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 72
+            },
+            "snippet": "<div class=\"accordeon-trigger js-accordeon-trigger accordion-trigger js-accordion-trig…\" aria-controls=\"section2146-2\" aria-expanded=\"false\" tabindex=\"0\">",
+            "nodeLabel": "Medicaid renewals",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-600-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,INNER,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,SECTION,0,DIV",
+            "selector": "div.a11y-paragraphs-tabs__body > div.ds-u-padding--0 > section#section2146-3 > div.accordeon-trigger",
+            "boundingRect": {
+              "top": 1377,
+              "bottom": 1448,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 72
+            },
+            "snippet": "<div class=\"accordeon-trigger js-accordeon-trigger accordion-trigger js-accordion-trig…\" aria-controls=\"section2146-3\" aria-expanded=\"false\" tabindex=\"0\">",
+            "nodeLabel": "Innovation Center",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-601-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,INNER,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,3,DIV,0,SECTION,0,DIV",
+            "selector": "div.a11y-paragraphs-tabs__body > div.ds-u-padding--0 > section#section2146-4 > div.accordeon-trigger",
+            "boundingRect": {
+              "top": 1449,
+              "bottom": 1521,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 72
+            },
+            "snippet": "<div class=\"accordeon-trigger js-accordeon-trigger accordion-trigger js-accordion-trig…\" aria-controls=\"section2146-4\" aria-expanded=\"false\" tabindex=\"0\">",
+            "nodeLabel": "No Surprise Billing",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-602-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,0,INNER,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,SECTION,0,DIV",
+            "selector": "div.a11y-paragraphs-tabs__body > div.ds-u-padding--0 > section#section2146-5 > div.accordeon-trigger",
+            "boundingRect": {
+              "top": 1522,
+              "bottom": 1593,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 72
+            },
+            "snippet": "<div class=\"accordeon-trigger js-accordeon-trigger accordion-trigger js-accordion-trig…\" aria-controls=\"section2146-5\" aria-expanded=\"false\" tabindex=\"0\">",
+            "nodeLabel": "Nursing home resources",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]
